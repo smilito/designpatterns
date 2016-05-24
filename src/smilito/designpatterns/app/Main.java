@@ -2,8 +2,10 @@ package smilito.designpatterns.app;
 
 import smilito.designpatterns.abstractfactory.AbstractFactoryRunclass;
 import smilito.designpatterns.adapter.AdapterRunclass;
+import smilito.designpatterns.bridge.BridgeRunclass;
 import smilito.designpatterns.builder.BuilderRunclass;
 import smilito.designpatterns.factory.FactoryRunclass;
+import smilito.designpatterns.filter.FilterRunclass;
 import smilito.designpatterns.observer.ObserverRunclass;
 import smilito.designpatterns.prototype.PrototypeRunclass;
 import smilito.designpatterns.singleton.SingletonRunclass;
@@ -26,6 +28,10 @@ public class Main {
 		PrototypeRunclass.run();
 		// Adapter
 		AdapterRunclass.run();
+		// Bridge
+		BridgeRunclass.run();
+		// Filter
+		FilterRunclass.run();
 	}
 
 }

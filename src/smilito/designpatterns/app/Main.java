@@ -4,8 +4,11 @@ import smilito.designpatterns.abstractfactory.AbstractFactoryRunclass;
 import smilito.designpatterns.adapter.AdapterRunclass;
 import smilito.designpatterns.bridge.BridgeRunclass;
 import smilito.designpatterns.builder.BuilderRunclass;
+import smilito.designpatterns.decorator.CompositeRunclass;
+import smilito.designpatterns.decorator.DecoratorRunclass;
 import smilito.designpatterns.factory.FactoryRunclass;
 import smilito.designpatterns.filter.FilterRunclass;
+import smilito.designpatterns.iterator.IteratorRunclass;
 import smilito.designpatterns.observer.ObserverRunclass;
 import smilito.designpatterns.prototype.PrototypeRunclass;
 import smilito.designpatterns.singleton.SingletonRunclass;
@@ -32,6 +35,12 @@ public class Main {
 		BridgeRunclass.run();
 		// Filter
 		FilterRunclass.run();
+		// Composite
+		CompositeRunclass.run();
+		// Iterator
+		IteratorRunclass.run();
+		// Decorator
+		DecoratorRunclass.run();
 	}
 
 }

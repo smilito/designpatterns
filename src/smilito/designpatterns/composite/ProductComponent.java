@@ -20,5 +20,10 @@ public class ProductComponent extends Component {
 		System.out.println("Product{name="+name+", price="+price+"}");
 	}
 	
+	public ProductComponent(String name, Double price){
+		this.name = name;
+		this.price = price;
+	}
+	
 
 }

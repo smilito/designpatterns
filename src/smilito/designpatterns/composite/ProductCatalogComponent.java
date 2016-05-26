@@ -37,4 +37,8 @@ public class ProductCatalogComponent extends Component {
 		}
 		return accumulated;
 	}
+	
+	public ProductCatalogComponent(String name){
+		this.name = name;
+	}
 }

@@ -11,7 +11,10 @@ import smilito.designpatterns.filter.FilterRunclass;
 import smilito.designpatterns.iterator.IteratorRunclass;
 import smilito.designpatterns.observer.ObserverRunclass;
 import smilito.designpatterns.prototype.PrototypeRunclass;
+import smilito.designpatterns.proxy.ProxyRunclass;
 import smilito.designpatterns.singleton.SingletonRunclass;
+import smilito.designpatterns.strategy.StrategyRunclass;
+import smilito.designpatterns.visitor.VisitorRunclass;
 
 public class Main {
 
@@ -41,6 +44,12 @@ public class Main {
 		IteratorRunclass.run();
 		// Decorator
 		DecoratorRunclass.run();
+		// Visitor
+		VisitorRunclass.run();
+		// Proxy 
+		ProxyRunclass.run();
+		// Strategy
+		StrategyRunclass.run();
 	}
 
 }

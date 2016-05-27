@@ -1,7 +1,5 @@
-package smilito.designpatterns.decorator;
+package smilito.designpatterns.composite;
 
-import smilito.designpatterns.composite.ProductCatalogComponent;
-import smilito.designpatterns.composite.ProductComponent;
 
 public class CompositeRunclass {
 	

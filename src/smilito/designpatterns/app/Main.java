@@ -4,7 +4,7 @@ import smilito.designpatterns.abstractfactory.AbstractFactoryRunclass;
 import smilito.designpatterns.adapter.AdapterRunclass;
 import smilito.designpatterns.bridge.BridgeRunclass;
 import smilito.designpatterns.builder.BuilderRunclass;
-import smilito.designpatterns.decorator.CompositeRunclass;
+import smilito.designpatterns.composite.CompositeRunclass;
 import smilito.designpatterns.decorator.DecoratorRunclass;
 import smilito.designpatterns.factory.FactoryRunclass;
 import smilito.designpatterns.filter.FilterRunclass;
